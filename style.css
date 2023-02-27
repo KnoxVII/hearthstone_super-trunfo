@@ -1,0 +1,173 @@
+:root {
+    --branco: #ebebeb;
+    --preto: #131313;
+    --marrom: #402e18;
+    --bege: #e7c6a8;
+    --bege-escuro: #a38d78;
+}
+
+@font-face {
+    font-family: "Belwe";
+    src: url("font/belwe-bold-bt.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-image: url("https://bnetcmsus-a.akamaihd.net/cms/gallery/L2NGVNHT1ABT1520449163034.jpg");
+    cursor: url('images/HearthstoneHand.cur'), auto;
+    font-family: "Belwe", bold;
+    min-height: 200px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+}
+
+.page-title {
+    color: var(--branco);
+    margin: 5px 0;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.90);
+}
+
+button {
+    color: var(--marrom);
+    cursor: url('images/HearthstoneHand.cur'), auto;
+    font-weight: bold;
+    background-color: var(--bege);
+    padding: 0.8rem 0.8rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    transition: all 0.2s ease-in-out;
+}
+
+button:active {
+    background-color: var(--bege-escuro);
+    transition: .2s;
+}
+
+.button-jogar {
+    padding-left: 6em;
+    padding-right: 6em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    color: var(--branco);
+    margin: 10px;
+    text-shadow: 2px 2px 0px black;
+}
+
+.sortear-carta:hover {
+    transform: scale(1.1);
+}
+
+#carta-jogador, #carta-maquina {
+    width: 295px;
+    height: 418px;
+    overflow: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    background-size: 295px 418px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: 5px;
+    border-radius: 33px;
+    transition: all 0.5s ease;
+}
+
+#carta-jogador:hover {
+    transform: scale(1.1);
+}
+
+#carta-maquina:hover {
+    transform: scale(1.1);   
+}
+
+#carta-jogador h3 {
+    text-align: center;
+}
+
+.carta-status {
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin: 15px 45px;
+    color: black;
+    font-weight: bold;
+}
+
+.carta-status input {
+    margin: 3px 27px;
+    padding: 25px;
+}
+
+#resultado {
+    position: absolute;
+    top: 70%;
+    left: 49.5%;
+    transform: translate(-50%, -50%);
+    margin: 5px;
+}
+
+.resultado-final {
+    color: var(--marrom);
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weigth: bolder;
+    padding: .5rem;
+    border: 0px solid var(--preto);
+    background-color: var(--bege);
+}
+
+.--spacing {
+    margin-left: 2.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.carta-subtitle {
+    z-index: 2;
+    position: absolute;
+    top: 16px;
+    left: 37px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+#cartas {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carta-status p {
+    margin-bottom: 2rem;    
+}
+
+
+
