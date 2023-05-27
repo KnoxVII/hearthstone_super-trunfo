@@ -15,6 +15,7 @@
 
 body {
     background-image: url("https://bnetcmsus-a.akamaihd.net/cms/gallery/L2NGVNHT1ABT1520449163034.jpg");
+    box-sizing: border-box;
     cursor: url('images/HearthstoneHand.cur'), auto;
     font-family: "Belwe", bold;
     min-height: 200px;
@@ -22,12 +23,15 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    width: 100vw;
 }
 
 .container {
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    box-sizing: border-box;
     text-align: center;
     padding: 5px;
-    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    width: 100%;
 }
 
 .page-title {

@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 768px) {
+    .container {
+        height: 200px;
+    }
+    
+    .page-title {
+        font-size: 1.6em;
+    }
+}
