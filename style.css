@@ -49,7 +49,7 @@ button {
     margin: 1rem 0;
     border-radius: 5px;
     border: none;
-    font-size: 1rem;
+    font-size: 1.5rem;
     transition: all 0.2s ease-in-out;
 }
 
@@ -69,12 +69,16 @@ button:active {
 
 h2 {
     color: var(--branco);
-    margin: 10px;
+    margin: 5px;
     text-shadow: 2px 2px 0px black;
 }
 
 .sortear-carta:hover {
     transform: scale(1.1);
+}
+
+#costas-carta {
+    padding: 0px;
 }
 
 #carta-jogador, #carta-maquina {
@@ -84,16 +88,16 @@ h2 {
     background-repeat: no-repeat;
     background-position-x: 5px;
     background-position-y: 5px;
-    border-radius: 33px;
     border-radius: 10px;
     height: 418px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     margin-top: 10px;
     display: flex;
+    justify-content: center;
     overflow: auto;
     position: relative;
     transition: all 0.5s ease;
-    width: 295px;
+    width: 292px;
 }
 
 #carta-jogador:hover {
@@ -108,18 +112,25 @@ h2 {
     text-align: center;
 }
 
+#opcoes.carta-status {
+    transform: translateY(-8px);
+}
+
 .carta-status {
+    font-size: 1.3em;
     align-items: center;
     justify-content: center;
     height: 100px;
-    margin: 15px 45px;
+    margin:15px 45px;
     color: black;
     font-weight: bold;
 }
 
 .carta-status input {
-    margin: 3px 27px;
-    padding: 25px;
+    margin: 3px 3px;
+    padding: 10px;
+    height: 15px;
+    width: 15px;
 }
 
 #resultado {
@@ -132,6 +143,8 @@ h2 {
 
 .resultado-final {
     color: var(--marrom);
+    border-radius: 5px;
+    box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.541);
     font-size: 2rem;
     text-transform: uppercase;
     font-weigth: bolder;
@@ -151,7 +164,7 @@ form {
 
 .wrapper {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 100%;
 }
 
@@ -165,7 +178,6 @@ form {
 }
 
 #cartas {
-    width: 100%;
     display: flex;
     justify-content: space-between;
 }
