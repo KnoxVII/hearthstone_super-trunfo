@@ -1,3 +1,10 @@
+const playButton = document.getElementById('sortear-carta');
+const audioPlayer = document.getElementById('audioPlayer');
+
+playButton.addEventListener('click', () => {
+audioPlayer.play();
+});
+
 var carta1 = {
     nome: "",
     imagem:
