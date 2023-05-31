@@ -100,10 +100,7 @@ h2 {
     width: 292px;
 }
 
-#carta-jogador:hover {
-    transform: scale(1.1);
-}
-
+#carta-jogador:hover,
 #carta-maquina:hover {
     transform: scale(1.1);   
 }
