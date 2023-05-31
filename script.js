@@ -1,10 +1,3 @@
-const playButton = document.getElementById('sortear-carta');
-const audioPlayer = document.getElementById('audioPlayer');
-
-playButton.addEventListener('click', () => {
-audioPlayer.play();
-});
-
 var carta1 = {
     nome: "",
     imagem:
@@ -127,14 +120,12 @@ var cartas = [
     carta9,
     carta10
 ];
-var cartaMaquina;
-var cartaJogador;
 
 function sortearCarta() {
     var numeroCartaMaquina = parseInt(Math.random() * 10); 
     cartaMaquina = cartas[numeroCartaMaquina];
 
-var numeroCartaJogador = parseInt(Math.random() * 10);
+    var numeroCartaJogador = parseInt(Math.random() * 10);
     while (numeroCartaMaquina == numeroCartaJogador) {
         numeroCartaJogador = parseInt(Math.random() * 10);
 }
