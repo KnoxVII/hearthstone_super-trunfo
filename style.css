@@ -15,15 +15,21 @@
 
 body {
     background-image: url("https://bnetcmsus-a.akamaihd.net/cms/gallery/L2NGVNHT1ABT1520449163034.jpg");
-    box-sizing: border-box;
-    cursor: url('images/HearthstoneHand.cur'), auto;
-    font-family: "Belwe", bold;
-    min-height: 200px;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    box-sizing: border-box;
+    cursor: url('images/HearthstoneHand.cur'), auto;
+    font-family: "Belwe", bold;
+    min-height: 200px;
     max-width: 100vw;
+}
+
+.page-title {
+    color: var(--branco);
+    margin: 5px;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 
 .container {
@@ -32,12 +38,6 @@ body {
     text-align: center;
     padding: 5px;
     width: 100%;
-}
-
-.page-title {
-    color: var(--branco);
-    margin: 5px 0;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.90);
 }
 
 button {
@@ -181,6 +181,25 @@ form {
 
 .carta-status p {
     margin-bottom: 2rem;    
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--bege); /* Substitua pela cor desejada */
+    padding: 10px;
+    text-align: center;
+}
+
+audio {
+    width: 100%;
+    height: 15px;
+}
+
+audio::-webkit-media-controls-panel {
+    background-color: var(--bege);
 }
 
 

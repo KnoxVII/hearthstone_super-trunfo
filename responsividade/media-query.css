@@ -236,6 +236,10 @@
 
 /* DESKTOP */
 @media screen and (min-width: 835px) {
+    .container {
+        height: 99vh;
+    }
+    
     .page-title {
     font-size: 2em;
     }
