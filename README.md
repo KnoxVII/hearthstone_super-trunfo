@@ -1,6 +1,6 @@
 <h1>Hearthstone - Super Trunfo 🎮</h1>
 <img src="https://github.com/KnoxVII/hearthstone_super-trunfo/blob/main/images/super-trunfo.jpeg?raw=true"
-<p>Este é um projeto de jogo de cartas inspirado no jogo Hearthstone, desenvolvido em HTML, CSS e JavaScript. O jogo é baseado no clássico jogo de Super Trunfo, onde o jogador deve escolher o atributo de sua carta para competir contra a carta do oponente.</p>
+<p>Este é um projeto de jogo de cartas inspirado no jogo Hearthstone, desenvolvido em HTML, CSS e JavaScript, totalmente responsivo e funcional. O jogo é baseado no clássico jogo de Super Trunfo, onde o jogador deve escolher o atributo de sua carta para competir contra a carta do oponente.</p>
 
 <h2>Funcionalidades 🎯</h2>
 <ul>
